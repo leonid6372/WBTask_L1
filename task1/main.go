@@ -13,7 +13,7 @@ type Human struct {
 
 // Parent struct method
 func (h *Human) Greeting() {
-	fmt.Printf("Hello! I'm human %d years old", h.Age)
+	fmt.Printf("Hello! I'm human and %d years old", h.Age)
 }
 
 // Child ctruct
