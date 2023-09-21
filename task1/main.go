@@ -16,7 +16,7 @@ func (h *Human) Greeting() {
 	fmt.Printf("Hello! I'm human and %d years old", h.Age)
 }
 
-// Child ctruct
+// Child struct
 type Action struct {
 	// Embed parent struct in child
 	Human
